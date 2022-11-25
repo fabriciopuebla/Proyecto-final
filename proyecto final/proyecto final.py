@@ -19,7 +19,7 @@ ventana.geometry("700x500+20+20")
 ventana.resizable(0,0)
 ventana.configure(bg="#E80707")
 
-titulo = tkinter.Label(ventana, text="Proyecto Python")
+titulo = tkinter.Label(ventana, text="Proyecto Final")
 titulo.pack()
 
 btn = tkinter.Button(ventana, text="Buscar imagen", height=3, width=10, command= buscar_nueva)
